@@ -9,7 +9,7 @@ st.title("Input Widgets")
 st.header("Pie Chart")
 coin = ['heads', 'tails']
 
-code = """slider_input = st.radio(
+code = slider_input = st.radio(
     "Select Slider or Number Input",
     ["Slider", "Number Input"])
 
@@ -17,10 +17,11 @@ flips = 0
 if slider_input == "Slider":
     flips = st.slider("Number of tosses", 0, 100, 3)
 elif slider_input == "Number Input":
-    flips = st.number_input("Number of tosses")"""
+    flips = st.number_input("Number of tosses")
 
 
 # -------- Create a radio select input that toogles between slider and number inputs ----------------------
+
 
 
 # ----------- Add a slider and a number input that can change variable 'flips' -------------------------

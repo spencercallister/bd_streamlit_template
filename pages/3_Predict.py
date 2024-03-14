@@ -4,6 +4,9 @@ import numpy as np
 
 # TODO: Load model here
 
+with open("./data/model.pkl", "rb") as file:
+    data = pickle.load(file)
+
 # def load_model...
 
 regressor = data["model"]

@@ -24,3 +24,5 @@ st.dataframe(df.head())
 # TODO: create a visualization using `st.area_chart`, `st.bar_chart`, `st.line_chart`, `st.scatter_chart` using the above data. See docs at https://docs.streamlit.io/library/api-reference/charts
 
 # If you need an idea, you can compare salary to number of years of professional experience
+
+st.scatter_chart(data=df, x='ConvertedCompYearly', y='WorkExp')
