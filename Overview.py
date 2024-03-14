@@ -33,21 +33,26 @@ st.markdown("""
 
 st.header('Let\'s get started!')
 
-st.markdown('1. **Clone this repo**')
-st.markdown('[Streamlit DS450 Demo](https://github.com/lsneth/bd_streamlit/tree/main)')
+st.markdown('1. **Fork this repo**')
+st.markdown('[Streamlit DS450 Demo](https://github.com/lsneth/bd_streamlit_template)')
 
 st.markdown('2. **Install the required packages**')
 st.code('pip install -r requirements.txt')
 st.markdown('If you have issue with any of the packages, try creating a [virtual environment and install the packages](https://docs.streamlit.io/get-started/installation/command-line).')
 
 st.markdown('3. **Run the app**')
-st.code('streamlit run app.py')
+st.code('streamlit run Overview.py')
 
-st.markdown('4. **Learn how to explore data**')
+st.markdown('4. **Learn how to build charts.**')
 
 st.markdown('5. **Import a ML model and use it**')
 
-st.markdown('6. **Deploy the app**')
+st.markdown('''
+            6. **Deploy the app**
+            - make sure to push up your changes to your forked repo
+            - [create a streamlit account](https://share.streamlit.io/signup)
+            - click on the deploy button in the top right corner of your running streamlit app
+            ''')
 
 st.header('Add more content!')
 st.markdown('[API Reference](https://docs.streamlit.io/library/api-reference)')
